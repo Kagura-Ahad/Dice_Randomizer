@@ -7,14 +7,16 @@ void main() {
       debugShowCheckedModeBanner:
           false, // Add this line to remove the debug banner
       home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 192, 127, 0),
+        backgroundColor: const Color.fromARGB(255, 249, 155, 125),
         appBar: AppBar(
-          title: const Text(
-            'Dice App',
+          title: const Center(
+            child: Text(
+              'Dice App',
+            ),
           ),
-          backgroundColor: const Color.fromARGB(255, 76, 61, 61),
+          backgroundColor: const Color.fromARGB(255, 176, 71, 89),
         ),
-        body: DicePage(),
+        body: const DicePage(),
       ),
     ),
   );
